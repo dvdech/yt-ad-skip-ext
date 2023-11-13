@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube auto skip ad",
+    "version": "1.0",
+    "icons": {
+      "48": "pineapple48.png",
+      "96": "pineapple96.png",
+      "128": "pineapple128.png"
+    },
+    "action": {
+      "default_icon": "pineapple48.png"
+    },
+    "description": "Skip skippable ads on Youtube.",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
