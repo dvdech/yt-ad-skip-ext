@@ -11,9 +11,6 @@
       "default_icon": "lynx64.png"
     },
     "description": "Skip skippable ads on Youtube.",
-    "permissions": [
-      "activeTab"
-    ],
     "content_scripts": [
       {
         "matches": ["*://www.youtube.com/*"],
