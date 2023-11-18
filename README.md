@@ -3,3 +3,5 @@ With Youtube blocking most if not all ad blockers i started to get annoyed with 
 Please note the use of document.VisibilityState. This is used to reduce the amount of polling done, increasing efficiency.
 
 Skip skippable ads on Youtube. 
+
+CAN BE DOWNLOADED HERE: https://chromewebstore.google.com/detail/yt-skip/hienhjocfbpiblhoajgppeajcbmdchmg?hl=en
