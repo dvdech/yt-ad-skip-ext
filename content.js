@@ -1,3 +1,5 @@
+let intervalId;  
+
 function checkAdStatus() {
     if (location.hostname === "www.youtube.com") {
         const adIndicator = document.querySelector(".ytp-ad-text");
@@ -20,8 +22,8 @@ function isYouTubeTab(url) {
   // Function to start or stop polling based on tab visibility
   function handleTabVisibilityChange() {
     if (document.visibilityState === 'visible' && isYouTubeTab(window.location.href)) {
-      // Run the check periodically (every 2 seconds in this example)
-      intervalId = setInterval(checkAdStatus, 2000);
+      // Run the check periodically (every 1 second in this example)
+      intervalId = setInterval(checkAdStatus, 1000);
     } else {
       // Stop the polling if the tab is not visible or not on YouTube
       clearInterval(intervalId);

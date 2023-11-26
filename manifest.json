@@ -1,14 +1,14 @@
 {
     "manifest_version": 3,
     "name": "YT Skip",
-    "version": "1.0",
+    "version": "1.2",
     "icons": {
-      "32": "lynx32.png",
-      "64": "lynx64.png",
-      "128": "lynx128.png"
+      "32": "yt-ad-skip-icon32.png",
+      "64": "yt-ad-skip-icon64.png",
+      "128": "yt-ad-skip-icon128.png"
     },
     "action": {
-      "default_icon": "lynx64.png"
+      "default_icon": "yt-ad-skip-icon128.png"
     },
     "description": "Skip skippable ads on Youtube.",
     "content_scripts": [
